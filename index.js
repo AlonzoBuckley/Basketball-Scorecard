@@ -58,3 +58,13 @@ function newGame(){
     console.log(guestCount);
     
 }
+// Expose handlers globally so the inline onclick attributes can reach them from this module
+Object.assign(window, {
+    homeAdd1Point,
+    homeAdd2Point,
+    homeAdd3Point,
+    guestAdd1Point,
+    guestAdd2Point,
+    guestAdd3Point,
+    newGame
+});

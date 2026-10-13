@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    background:#14213d;
+    color:#f9fdf2;
+    text-align: center;
+    
+    font-family: "Oxanium", sans-serif;
+    font-size: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.add-points{
+    border: 2px solid #1a659e;
+    border-radius: 10px;
+    background-color: #14213d;
+    color: #1a659e;
+    margin-top: 10px;
+    height: 45px;
+    width: 50px;
+}
+
+.team-score{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 80px;
+    margin: -15px 0 -1px 0;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    background: #000000;
+    color: #d00000;
+    height: 120px;
+    width: 155px; 
+}
+
+#new-game{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    border: 2px solid #1a659e;
+    border-radius: 10px;
+    background-color: #14213d;
+    color: #1a659e;
+    height: 45px;
+    width: 55px;
+    font-size: 15px;
+    margin: 275px 0 0 0;
+}
